@@ -1,0 +1,30 @@
+body {
+	margin: 0 auto;
+	background: #111;
+}
+
+.big-fart {
+	font-family: 'Anton', sans-serif;
+	font-size: 10em;
+	text-align: center;
+
+
+	color: #1A1;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.center {
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+}
+
+
+@media (min-width: 768px) {
+	.big-fart {
+		font-size: 20em;
+	}
+}
